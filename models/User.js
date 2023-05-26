@@ -31,6 +31,7 @@ const userSchema = new mongoose.Schema({
     },
     accountId: {
         type: String,
+        default:null
     }
 
 
